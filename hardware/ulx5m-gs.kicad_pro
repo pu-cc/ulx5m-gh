@@ -65,6 +65,22 @@
       ],
       "drc_exclusions": [
         [
+          "clearance|65205000|91122500|645b3dda-6eb5-4547-aa14-f3fdc811eb4e|e4c97fe4-f1fc-45e0-b381-1167c23e4ddf",
+          ""
+        ],
+        [
+          "clearance|65205000|91622500|e4c97fe4-f1fc-45e0-b381-1167c23e4ddf|a1720799-8d67-4768-a0b5-9c34efaf4b2b",
+          ""
+        ],
+        [
+          "clearance|65879000|91197500|5c648750-d5ae-4406-b2f9-b417351d8634|f467611e-1b08-4c61-96cd-d82870ee4657",
+          ""
+        ],
+        [
+          "clearance|65879000|91697500|3cc8c299-5903-446c-8823-1553cfe17401|5c648750-d5ae-4406-b2f9-b417351d8634",
+          ""
+        ],
+        [
           "clearance|68073401|66727000|e53484a5-6883-493f-9f18-0b8a3a935c6b|e2d6b227-8f8d-46e4-a777-9d7ce30d1eb7",
           ""
         ],
@@ -1250,7 +1266,7 @@
     "project_creator": "Intergalaktik d.o.o.",
     "project_license": "CERN-OHL-S v2",
     "project_name": "ULX5M-GS",
-    "project_version": "v003",
+    "project_version": "v004",
     "project_year": "2025"
   }
 }

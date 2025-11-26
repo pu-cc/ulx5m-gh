@@ -3147,7 +3147,7 @@
 	)
 	(text "PMIC_EN"
 		(exclude_from_sim no)
-		(at 33.528 151.384 0)
+		(at 58.928 151.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4420,7 +4420,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 151.13) (xy 59.69 151.13)
+			(xy 48.26 151.13) (xy 59.69 151.13)
 		)
 		(stroke
 			(width 0)
@@ -5017,16 +5017,6 @@
 			(type default)
 		)
 		(uuid "aee82f39-2efa-49af-a5cf-0f4dd50fb3f7")
-	)
-	(wire
-		(pts
-			(xy 36.83 151.13) (xy 49.53 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "affa4611-69c7-4623-99f5-f880fcea30e6")
 	)
 	(wire
 		(pts
@@ -6120,6 +6110,28 @@
 			)
 		)
 	)
+	(global_label "RST_N"
+		(shape input)
+		(at 48.26 151.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3b0a9ba1-4351-4500-b5bd-00acc15fb1bf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.5296 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PWR_BTN"
 		(shape input)
 		(at 92.71 140.97 0)
@@ -6841,138 +6853,6 @@
 			(project "gatemate-plm"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/283ab020-ff93-4a42-acab-3f426f9046f9"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 36.83 151.13 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "14fcb05a-d4f8-4b06-86de-e64f4e856b29")
-		(property "Reference" "#PWR06"
-			(at 40.64 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 38.354 150.114 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 36.83 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 36.83 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "101a8f3c-8c79-4297-a38a-ede0c7657bdf")
-		)
-		(instances
-			(project "ulx5m-gs"
-				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/283ab020-ff93-4a42-acab-3f426f9046f9"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 52.07 151.13 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1579d518-d451-4d2e-9f24-af933656bd12")
-		(property "Reference" "R133"
-			(at 49.022 150.622 90)
-			(effects
-				(font
-					(size 0.5 0.5)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 52.07 151.13 90)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 52.07 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 52.07 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 52.07 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2b96bbb7-60c3-4024-959c-d7af202113b2")
-		)
-		(pin "2"
-			(uuid "fc7bab0b-be47-45d5-8682-205c0702b8f7")
-		)
-		(instances
-			(project "ulx5m-gs"
-				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/283ab020-ff93-4a42-acab-3f426f9046f9"
-					(reference "R133")
 					(unit 1)
 				)
 			)
