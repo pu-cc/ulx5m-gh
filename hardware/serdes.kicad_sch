@@ -14025,16 +14025,6 @@
 		)
 		(uuid "1269ce5e-995e-41f1-aaf8-f9ac2bde4aed")
 	)
-	(label "SER_RST_N"
-		(at 125.73 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1914356d-553b-4f77-85d5-448bb2c516f3")
-	)
 	(label "PCIe_CLK_N"
 		(at 171.45 39.37 180)
 		(effects

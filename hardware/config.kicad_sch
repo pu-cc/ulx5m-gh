@@ -9452,16 +9452,16 @@
 		(uuid "14484fab-de95-42f0-921a-1b398627f263")
 	)
 	(junction
+		(at 149.86 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c086617-0125-41ab-97f0-f80f9b6a6cff")
+	)
+	(junction
 		(at 66.04 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "268b02a4-94b1-409e-b420-9c133b3eb335")
-	)
-	(junction
-		(at 149.86 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2b5edafd-2a93-4ab1-97fc-584716c26c47")
 	)
 	(junction
 		(at 215.9 67.31)
@@ -9548,7 +9548,7 @@
 		(uuid "a7d11fb0-eea5-48ca-978b-ad612631c21a")
 	)
 	(junction
-		(at 165.1 52.07)
+		(at 160.02 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a7f7453d-c34d-42fc-8644-5e877a85b94d")
@@ -9588,6 +9588,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c29b9a11-cc41-4f75-8b0d-77c9b257b9e6")
+	)
+	(junction
+		(at 160.02 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c68a5807-c744-4ce2-9340-96005ef6b250")
 	)
 	(junction
 		(at 71.12 69.85)
@@ -9843,16 +9849,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 59.69) (xy 149.86 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b4355f7-1e5e-4bf4-8c76-dc850d9dac5c")
-	)
-	(wire
-		(pts
 			(xy 66.04 62.23) (xy 71.12 62.23)
 		)
 		(stroke
@@ -9920,6 +9916,16 @@
 			(type default)
 		)
 		(uuid "279874ac-ad3f-489a-82ed-e4868c68fabb")
+	)
+	(wire
+		(pts
+			(xy 149.86 59.69) (xy 160.02 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2926a77b-7e50-4fc6-a060-866c13147cba")
 	)
 	(wire
 		(pts
@@ -10220,6 +10226,16 @@
 			(type default)
 		)
 		(uuid "633a8377-ab3f-42a9-ad6b-473fecd5a98d")
+	)
+	(wire
+		(pts
+			(xy 160.02 59.69) (xy 160.02 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6797daac-377f-47d7-81a7-867f801d60e0")
 	)
 	(wire
 		(pts
@@ -10543,7 +10559,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 52.07) (xy 165.1 53.34)
+			(xy 160.02 52.07) (xy 160.02 53.34)
 		)
 		(stroke
 			(width 0)
@@ -10583,7 +10599,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 52.07) (xy 156.21 52.07)
+			(xy 149.86 52.07) (xy 160.02 52.07)
 		)
 		(stroke
 			(width 0)
@@ -10803,7 +10819,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 58.42) (xy 165.1 60.96)
+			(xy 160.02 58.42) (xy 160.02 59.69)
 		)
 		(stroke
 			(width 0)
@@ -10823,7 +10839,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 50.8) (xy 165.1 52.07)
+			(xy 160.02 50.8) (xy 160.02 52.07)
 		)
 		(stroke
 			(width 0)
@@ -10840,16 +10856,6 @@
 			(type default)
 		)
 		(uuid "c4a8a9fd-1ae4-46b3-9fb7-d122f4aae409")
-	)
-	(wire
-		(pts
-			(xy 161.29 52.07) (xy 165.1 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4e42ed9-c451-4058-bfc6-a80cf2591214")
 	)
 	(wire
 		(pts
@@ -20318,7 +20324,7 @@
 	(symbol
 		(lib_name "+1V8_4")
 		(lib_id "power:+1V8")
-		(at 165.1 50.8 0)
+		(at 160.02 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20327,7 +20333,7 @@
 		(fields_autoplaced yes)
 		(uuid "41718de2-a9bd-4a0e-a6f9-1e4a8a206a17")
 		(property "Reference" "#PWR062"
-			(at 165.1 54.61 0)
+			(at 160.02 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20336,7 +20342,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 165.1 45.72 0)
+			(at 160.02 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20344,7 +20350,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 50.8 0)
+			(at 160.02 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20353,7 +20359,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 50.8 0)
+			(at 160.02 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20362,7 +20368,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 165.1 50.8 0)
+			(at 160.02 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20509,72 +20515,6 @@
 			(project "gatemate-plm"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/1fc2f15e-8369-4c6d-a2f1-3c85144bfcff"
 					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 149.86 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4a384c17-ec4a-4d21-8c91-82160006bf85")
-		(property "Reference" "#PWR0139"
-			(at 149.86 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 149.86 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 149.86 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "35ccdf44-2f2c-48b2-b779-fe7a941ad4c3")
-		)
-		(instances
-			(project "gatemate-plm"
-				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/1fc2f15e-8369-4c6d-a2f1-3c85144bfcff"
-					(reference "#PWR0139")
 					(unit 1)
 				)
 			)
@@ -21199,7 +21139,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 165.1 55.88 0)
+		(at 160.02 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21208,7 +21148,7 @@
 		(fields_autoplaced yes)
 		(uuid "812e15c3-371b-4a1d-8521-e874d5d2113b")
 		(property "Reference" "C47"
-			(at 167.64 54.6163 0)
+			(at 162.56 54.6163 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21217,7 +21157,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 167.64 57.1563 0)
+			(at 162.56 57.1563 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21226,7 +21166,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 165.1 55.88 0)
+			(at 160.02 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21235,7 +21175,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 165.1 55.88 0)
+			(at 160.02 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21244,7 +21184,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 165.1 55.88 0)
+			(at 160.02 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21404,7 +21344,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 165.1 60.96 0)
+		(at 160.02 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21413,7 +21353,7 @@
 		(fields_autoplaced yes)
 		(uuid "8e6bae3f-2ee3-478a-b274-8388eac5c9ab")
 		(property "Reference" "#PWR063"
-			(at 165.1 67.31 0)
+			(at 160.02 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21422,7 +21362,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 165.1 66.04 0)
+			(at 160.02 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21430,7 +21370,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 60.96 0)
+			(at 160.02 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21439,7 +21379,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 60.96 0)
+			(at 160.02 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21448,7 +21388,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 60.96 0)
+			(at 160.02 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23940,73 +23880,6 @@
 			(project "ulx5m-gs"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/1fc2f15e-8369-4c6d-a2f1-3c85144bfcff"
 					(reference "#PWR045")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 158.75 52.07 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e2ef0b61-0f10-4536-80fe-7b5e2ea6490f")
-		(property "Reference" "R123"
-			(at 158.75 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4R7"
-			(at 158.75 49.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 158.75 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 158.75 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 158.75 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "83a10775-e22a-4f45-92d1-fb475c5b535a")
-		)
-		(pin "2"
-			(uuid "a0d44e3d-c0e2-4f0d-8545-7c2803e6cfa6")
-		)
-		(instances
-			(project "gatemate-plm"
-				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/1fc2f15e-8369-4c6d-a2f1-3c85144bfcff"
-					(reference "R123")
 					(unit 1)
 				)
 			)
