@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.64,
-          "width": 0.54
+          "height": 0.6,
+          "width": 1.325
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -64,22 +64,6 @@
         }
       ],
       "drc_exclusions": [
-        [
-          "clearance|65205000|91122500|645b3dda-6eb5-4547-aa14-f3fdc811eb4e|e4c97fe4-f1fc-45e0-b381-1167c23e4ddf",
-          ""
-        ],
-        [
-          "clearance|65205000|91622500|e4c97fe4-f1fc-45e0-b381-1167c23e4ddf|a1720799-8d67-4768-a0b5-9c34efaf4b2b",
-          ""
-        ],
-        [
-          "clearance|65879000|91197500|5c648750-d5ae-4406-b2f9-b417351d8634|f467611e-1b08-4c61-96cd-d82870ee4657",
-          ""
-        ],
-        [
-          "clearance|65879000|91697500|3cc8c299-5903-446c-8823-1553cfe17401|5c648750-d5ae-4406-b2f9-b417351d8634",
-          ""
-        ],
         [
           "clearance|68073401|66727000|e53484a5-6883-493f-9f18-0b8a3a935c6b|e2d6b227-8f8d-46e4-a777-9d7ce30d1eb7",
           ""
@@ -573,7 +557,7 @@
         "clearance": 0.1,
         "name": "BTN",
         "pcb_color": "rgb(194, 0, 0)",
-        "priority": 2,
+        "priority": 4,
         "schematic_color": "rgb(194, 0, 0)",
         "track_width": 0.125,
         "via_diameter": 0.35,
@@ -587,7 +571,7 @@
         "microvia_drill": 0.1,
         "name": "DDMI0",
         "pcb_color": "rgb(255, 255, 0)",
-        "priority": 7,
+        "priority": 9,
         "schematic_color": "rgb(255, 255, 0)",
         "track_width": 0.125,
         "via_diameter": 0.35,
@@ -597,7 +581,7 @@
         "clearance": 0.1,
         "name": "Ethernet",
         "pcb_color": "rgb(194, 194, 194)",
-        "priority": 4,
+        "priority": 6,
         "schematic_color": "rgb(194, 194, 194)",
         "track_width": 0.125,
         "via_diameter": 0.35,
@@ -607,7 +591,7 @@
         "clearance": 0.1,
         "name": "GPIO",
         "pcb_color": "rgb(255, 0, 255)",
-        "priority": 6,
+        "priority": 8,
         "schematic_color": "rgb(255, 0, 255)",
         "track_width": 0.125,
         "via_diameter": 0.35,
@@ -617,7 +601,7 @@
         "clearance": 0.1,
         "name": "JTAG",
         "pcb_color": "rgb(255, 255, 194)",
-        "priority": 0,
+        "priority": 2,
         "schematic_color": "rgb(0, 0, 0)",
         "track_width": 0.125,
         "via_diameter": 0.35,
@@ -627,7 +611,7 @@
         "clearance": 0.1,
         "name": "LED",
         "pcb_color": "rgb(0, 0, 255)",
-        "priority": 3,
+        "priority": 5,
         "schematic_color": "rgb(0, 0, 255)",
         "track_width": 0.125,
         "via_diameter": 0.35,
@@ -641,7 +625,7 @@
         "microvia_drill": 0.1,
         "name": "LVDS0",
         "pcb_color": "rgb(0, 0, 194)",
-        "priority": 9,
+        "priority": 11,
         "schematic_color": "rgb(0, 0, 194)",
         "track_width": 0.125,
         "via_diameter": 0.35,
@@ -655,7 +639,7 @@
         "microvia_drill": 0.1,
         "name": "LVDS1",
         "pcb_color": "rgb(255, 153, 0)",
-        "priority": 8,
+        "priority": 10,
         "schematic_color": "rgb(255, 153, 0)",
         "track_width": 0.125,
         "via_diameter": 0.35,
@@ -667,7 +651,7 @@
         "diff_pair_width": 0.125,
         "name": "PCIe",
         "pcb_color": "rgb(0, 255, 0)",
-        "priority": 10,
+        "priority": 12,
         "schematic_color": "rgb(0, 255, 0)",
         "track_width": 0.178562,
         "via_diameter": 0.35,
@@ -675,9 +659,19 @@
       },
       {
         "clearance": 0.1,
+        "name": "POWER",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.4,
+        "via_diameter": 0.35,
+        "via_drill": 0.2
+      },
+      {
+        "clearance": 0.1,
         "name": "SDCARD",
         "pcb_color": "rgb(0, 132, 0)",
-        "priority": 1,
+        "priority": 3,
         "schematic_color": "rgb(0, 132, 0)",
         "track_width": 0.125,
         "via_diameter": 0.35,
@@ -687,7 +681,7 @@
         "clearance": 0.1,
         "name": "SDRAM",
         "pcb_color": "rgb(194, 194, 0)",
-        "priority": 5,
+        "priority": 7,
         "schematic_color": "rgb(194, 194, 0)",
         "track_width": 0.125,
         "via_diameter": 0.35,
@@ -699,9 +693,19 @@
         "diff_pair_width": 0.2,
         "name": "USB",
         "pcb_color": "rgb(0, 132, 132)",
-        "priority": 11,
+        "priority": 13,
         "schematic_color": "rgb(0, 132, 132)",
         "track_width": 0.2,
+        "via_diameter": 0.35,
+        "via_drill": 0.2
+      },
+      {
+        "clearance": 0.1,
+        "name": "VBUS",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
         "via_diameter": 0.35,
         "via_drill": 0.2
       }
@@ -867,6 +871,34 @@
       {
         "netclass": "DDMI0",
         "pattern": "/cm4-hsio/DDMI0*"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "+3V3"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "VDD_*"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "+1V8"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "+1V2"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "GPIO_VREF"
+      },
+      {
+        "netclass": "VBUS",
+        "pattern": "+5V"
       }
     ]
   },
@@ -1248,7 +1280,7 @@
     ],
     [
       "e7f41e58-8517-469c-9a21-6f6a704f2114",
-      "gpdi-ram"
+      "memory"
     ],
     [
       "a29a432d-2cca-4e45-9947-735d9a1918bd",
