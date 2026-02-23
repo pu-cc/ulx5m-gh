@@ -403,16 +403,6 @@
 		)
 		(uuid "af48de26-2b78-4180-9042-7791a5cb6498")
 	)
-	(text "4HIGH bit SD"
-		(exclude_from_sim no)
-		(at 49.022 74.422 90)
-		(effects
-			(font
-				(size 1 1)
-			)
-		)
-		(uuid "c1dea7e7-fd63-483c-97b2-9e7f9b18c852")
-	)
 	(junction
 		(at 52.07 66.04)
 		(diameter 0)
@@ -469,16 +459,6 @@
 		)
 		(uuid "0235d233-810d-4a58-9191-9b72945d69c9")
 	)
-	(wire
-		(pts
-			(xy 45.72 91.44) (xy 58.42 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05763080-73ee-488f-bb01-ba61a18498e8")
-	)
 	(bus
 		(pts
 			(xy 52.07 48.26) (xy 58.42 48.26)
@@ -525,28 +505,6 @@
 	)
 	(bus
 		(pts
-			(xy 50.8 78.74) (xy 58.42 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 132 0 1)
-		)
-		(uuid "31e7c15f-9fae-4bdd-ae9c-fc2d71a7df39")
-	)
-	(bus
-		(pts
-			(xy 45.72 81.28) (xy 58.42 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 255 1)
-		)
-		(uuid "3350d292-8044-4bd6-9734-53290e9a6f6f")
-	)
-	(bus
-		(pts
 			(xy 45.72 66.04) (xy 52.07 66.04)
 		)
 		(stroke
@@ -567,16 +525,6 @@
 		)
 		(uuid "444a54be-31c3-48e3-a0eb-c02a360a7a30")
 	)
-	(wire
-		(pts
-			(xy 45.72 93.98) (xy 58.42 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49203bcc-36d2-4398-bb6f-dfa7146fd68f")
-	)
 	(bus
 		(pts
 			(xy 90.17 83.82) (xy 102.87 83.82)
@@ -590,7 +538,7 @@
 	)
 	(bus
 		(pts
-			(xy 90.17 81.28) (xy 102.87 81.28)
+			(xy 90.17 109.22) (xy 102.87 109.22)
 		)
 		(stroke
 			(width 0)
@@ -611,17 +559,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 60.96) (xy 58.42 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 255 1)
-		)
-		(uuid "b3ad6de2-2655-410d-a2b5-681b5e93ccc1")
-	)
-	(wire
-		(pts
 			(xy 45.72 45.72) (xy 58.42 45.72)
 		)
 		(stroke
@@ -631,7 +568,7 @@
 		)
 		(uuid "b5fd341c-7e31-4213-b9b0-0aa093a12e26")
 	)
-	(wire
+	(bus
 		(pts
 			(xy 45.72 63.5) (xy 58.42 63.5)
 		)
@@ -639,7 +576,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "dd54df71-f8bb-4f56-84fd-75de64910123")
+		(uuid "da41589b-74de-4bab-94ca-7a50d71f4436")
 	)
 	(bus
 		(pts
@@ -1455,16 +1392,6 @@
 				(justify right)
 			)
 		)
-		(pin "{I2C}" bidirectional
-			(at 45.72 81.28 0)
-			(uuid "25b9db1d-3f78-44d3-b6ce-54380694b9a4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "EEPROM_nWP" output
 			(at 45.72 113.03 0)
 			(uuid "a62f53d8-d068-49e7-a2ba-c3352c640821")
@@ -1485,49 +1412,9 @@
 				(justify right)
 			)
 		)
-		(pin "FAN_PWM" input
-			(at 45.72 60.96 0)
-			(uuid "f901b819-5e75-4bf0-ab91-97f1416b88e3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "FAN_TACHO" input
 			(at 45.72 110.49 0)
 			(uuid "2cdfb89b-9640-4f07-b744-030613e85e53")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "GPIO_VREF" output
-			(at 45.72 63.5 0)
-			(uuid "b037ad4f-f7dc-401c-83ad-cd55b849dc6e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "ID_SC" bidirectional
-			(at 45.72 93.98 0)
-			(uuid "ccbf89ad-7fbb-437f-95c1-e627a0602f8d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "ID_SD" bidirectional
-			(at 45.72 91.44 0)
-			(uuid "4fdeac10-4032-4378-b4d6-2b0d14678ffe")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1585,6 +1472,16 @@
 				(justify right)
 			)
 		)
+		(pin "{I2C}" bidirectional
+			(at 45.72 63.5 0)
+			(uuid "b2643a17-928e-445d-98d0-1045d8bb7e0e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "ulx5m-gs"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8"
@@ -1594,7 +1491,7 @@
 		)
 	)
 	(sheet
-		(at 77.47 39.37)
+		(at 82.55 39.37)
 		(size 12.7 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1609,7 +1506,7 @@
 		)
 		(uuid "3a2aa01e-90a0-4f5c-bc35-5016c4c82a42")
 		(property "Sheetname" "power"
-			(at 77.978 41.148 0)
+			(at 83.058 41.148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1618,7 +1515,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 85.09 53.34 0)
+			(at 90.17 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1687,46 +1584,6 @@
 				(justify left)
 			)
 		)
-		(pin "{DDMI1}" bidirectional
-			(at 90.17 81.28 0)
-			(uuid "3defa5af-6577-4d30-b4ea-3df954769344")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "{I2C}" bidirectional
-			(at 58.42 81.28 180)
-			(uuid "b3019909-46fb-49f8-b23b-8d30a702ec85")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "ID_SC" bidirectional
-			(at 58.42 93.98 180)
-			(uuid "4d85c8a9-e4f7-41a8-99a4-2df7f32ee4f8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "ID_SD" bidirectional
-			(at 58.42 91.44 180)
-			(uuid "f1e55ce5-d5bd-4ca4-9fc5-39c0a39b7414")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "USB_CC1" passive
 			(at 58.42 83.82 180)
 			(uuid "403f1350-bfa9-4652-a57f-1f0d084b08db")
@@ -1747,16 +1604,6 @@
 				(justify left)
 			)
 		)
-		(pin "{SD}" bidirectional
-			(at 58.42 78.74 180)
-			(uuid "5e800093-ffa2-4fe0-8e82-bb3efaa31330")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(instances
 			(project "ulx5m-gs"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8"
@@ -1767,7 +1614,7 @@
 	)
 	(sheet
 		(at 58.42 58.42)
-		(size 21.844 12.7)
+		(size 21.59 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1818,19 +1665,9 @@
 				(justify left)
 			)
 		)
-		(pin "FAN_PWM" output
-			(at 58.42 60.96 180)
-			(uuid "cde49fe9-3795-4dec-9d24-eb264658e1fd")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "GPIO_VREF" output
+		(pin "{I2C}" bidirectional
 			(at 58.42 63.5 180)
-			(uuid "ab4a41a9-f4c2-464a-8007-ff598cdbcbde")
+			(uuid "2c1de2f3-b3ba-4010-9b04-ca49a0ca43cd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1848,7 +1685,7 @@
 	)
 	(sheet
 		(at 58.42 97.79)
-		(size 31.75 12.7)
+		(size 31.75 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1871,7 +1708,7 @@
 			)
 		)
 		(property "Sheetfile" "lvds.kicad_sch"
-			(at 74.93 111.76 0)
+			(at 74.93 113.538 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1902,6 +1739,16 @@
 		(pin "{LVDS1}" bidirectional
 			(at 90.17 106.68 0)
 			(uuid "5d1ced9f-1779-48b2-9ac0-344d675bf370")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{DDMI1}" bidirectional
+			(at 90.17 109.22 0)
+			(uuid "118dfca3-f07d-41a6-984c-dd005b129523")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1982,7 +1829,7 @@
 			)
 		)
 		(pin "{DDMI1}" bidirectional
-			(at 102.87 81.28 180)
+			(at 102.87 109.22 180)
 			(uuid "92b4b625-6cf7-4f02-a63a-5cd77a32df12")
 			(effects
 				(font
@@ -2050,8 +1897,8 @@
 		)
 	)
 	(sheet
-		(at 82.042 58.42)
-		(size 13.462 12.7)
+		(at 82.55 58.42)
+		(size 12.7 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2064,8 +1911,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "e7f41e58-8517-469c-9a21-6f6a704f2114")
-		(property "Sheetname" "gpdi-ram"
-			(at 83.058 60.452 0)
+		(property "Sheetname" "memory"
+			(at 83.566 60.452 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2073,8 +1920,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ram.kicad_sch"
-			(at 88.392 72.39 0)
+		(property "Sheetfile" "memory.kicad_sch"
+			(at 88.9 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
